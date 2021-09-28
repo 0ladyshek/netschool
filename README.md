@@ -1,4 +1,4 @@
 # netschool
 Бот для работы с Сетевым городом
 
-Построено на основе https://github.com/nm17/netschoolapi и 
+Построено на основе [либы](https://github.com/nm17/netschoolapi) и чата [чата](https://t.me/netschoolapi)
