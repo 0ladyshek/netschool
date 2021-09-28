@@ -148,8 +148,3 @@ async def birthYears(url, login, password, school):
 		result += '\n'
 	await api.logout()
 	return result
-
-async def getSettings(url, login, password, school):
-	api = NetSchoolAPI(url)
-	await api.login(login, password, school)
-	result = 'Приватные данные из СГО:\n'
