@@ -1,7 +1,7 @@
 # netschool
 Бот для работы с Сетевым городом
 
-Построено на основе [либы](https://github.com/nm17/netschoolapi) и чата [чата](https://t.me/netschoolapi)
+Построено на основе [либы](https://github.com/nm17/netschoolapi) и [чата](https://t.me/netschoolapi)
 
 ## Реализовано:
 + **Получение дневника/дз за неделю/сегодня/вчера/завтра**
