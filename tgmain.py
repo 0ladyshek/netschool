@@ -1,4 +1,3 @@
-from netschoolapi import NetSchoolAPI
 from aiogram import Dispatcher, types, executor
 from aiogram.bot import Bot
 from aiogram.dispatcher import FSMContext
