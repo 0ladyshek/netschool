@@ -6,7 +6,7 @@ from typing import Optional, Dict, List, Union
 import httpx
 from httpx import AsyncClient, Response
 
-from netschoolapi import errors, parser
+from . import errors, parser
 #from netschoolapi import parser
 
 __all__ = ['NetSchoolAPI']
