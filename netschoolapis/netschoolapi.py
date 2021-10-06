@@ -23,7 +23,6 @@ class NetSchoolAPI:
             base_url=f'{url}/',
             headers={'user-agent': 'NetSchoolAPI/5.0.3', 'referer': url},
             event_hooks={'response': [_die_on_bad_status]},
-            follow_redirects=True,
         )
 
         self._student_id = -1
