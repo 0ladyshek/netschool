@@ -33,7 +33,8 @@ async def get_marks(url, login, password, school):
 			if 'assignments' in lesson.keys():
 				for assignment in lesson['assignments']:
 					if 'mark' in assignment.keys() and 'mark' in assignment['mark']:
-						marks[lesson['subjectName']].append(assignment['mark']['mark'])
+						if assignment['mark']['mark'] != None:
+							marks[lesson['subjectName']].append(assignment['mark']['mark'])
 	result = ''
 	for lesson in marks.keys():
 		if marks[lesson]:
